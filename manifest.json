@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Customer Service Friendly Reply Optimizer",
+  "version": "1.0",
+  "description": "Optimize replies to Zendesk tickets to make them more customer service friendly.",
+  "author": "David Castillo",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_popup": "index.html"
+  }
+}
