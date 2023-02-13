@@ -1,6 +1,6 @@
 // Send the original reply text to the OpenAI API
 async function optimizeReply(originalReply) {
-  const API_KEY = "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";
+  const API_KEY = "___API KEY__";
   const API_URL = `https://api.openai.com/v1/completions`;
 
   const response = await fetch(API_URL, {
